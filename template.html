@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+    <head>
     <!-- 
     =================================
         ONTRAPORT EMAIL TEMPLATE
@@ -12,7 +12,7 @@
      -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width">
-    
+
     <!-- 
     Ink frame works styles. Feel free to remove this link an insert the styles in line while test. But know that
     finished templates must use the link tag and not the inline styles
@@ -23,460 +23,387 @@
     it should be part of every ONTRAPORT email template email us your suggestions at teamdev-fe@ontraport.com 
     -->
     <link rel="stylesheet" href="http://optassets.ontraport.com/opt_assets/templates/email/ink/ink.ontraport.css" />
-    
     <style>
-    /*************************************************************************
+/*************************************************************************
     * END FRAMEWORK STYLES * ADD TEMPLATE SPECIFIC STYLES BELOW THIS LINE       
     *************************************************************************/
     
     /* start template specific css -----------------------------------------*/
+
 .my-template {
-	font-family:Arial, Helvetica, sans-serif;
-	color:#1e1e1e;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #1e1e1e;
 }
-.my-template .header{
-	background-color:#000000;
+.my-template .header {
+	background-color: #000000;
 }
-.logo{
-	width:200px;
+.logo {
+	width: 200px;
 }
-.my-template .template-label{
-    font-family: "Trebuchet MS",Verdana,sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 16px;
+.my-template .template-label {
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 16px;
 }
-.heading h1{
-	font-size:45px;
-	color:#a80888;
-	text-align:center;
-	font-weight:bold;
+.heading h1 {
+	font-size: 45px;
+	color: #a80888;
+	text-align: center;
+	font-weight: bold;
 }
-.heading h6{
-	font-weight:bold;
-	text-align:center;
-	text-transform:uppercase;
+.heading h6 {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
 }
-.banner td.banner-area, .my-template .registration td, table.footer td{
-	padding-bottom:0px;
+.banner td.banner-area, .my-template .registration td, table.footer td {
+	padding-bottom: 0px;
 }
 .registration {
-	background-color:#a80888;
-	border-top:1px solid #ffffff;
+	background-color: #a80888;
+	border-top: 1px solid #ffffff;
 }
-.my-template .color-white{
-	color:#ffffff;
+.my-template .color-white {
+	color: #ffffff;
 }
-.my-template .details-image-wrap{
-	width:165px;
-	float:right;
-	text-align:right;
+.my-template .details-image-wrap {
+	width: 193px;
+	float: right;
+	text-align: right;
 }
-.details-image-wrap img{
-	float:right;
-	background-color:#000000;
-	width:165px;
-	padding:0px;
-	margin:0px;
-	border:none;
-	outline:none;
+.details-image-wrap img {
+	float: right;
+	background-color: #000000;
+	width: 165px;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	outline: none;
 }
-.my-template  table.registration, .my-template  table.registration td, table.demo-btn, table.demo-btn td, table.sidebar-links, table.sidebar-links td, table.footer, table.footer td{
-	vertical-align:middle;
-} 
-.my-template  .registration a{
-	text-decoration:underline;
+.my-template table.registration, .my-template table.registration td, table.demo-btn, table.demo-btn td, table.sidebar-links, table.sidebar-links td, table.footer, table.footer td {
+	vertical-align: middle;
+}
+.my-template .registration a {
+	text-decoration: underline;
 }
 .my-template td.wrapper {
-    padding: 10px 20px 0 0;
+	padding: 10px 20px 0 0;
 }
-.my-template td.my-wrapper{
-	padding-top:0px;
+.my-template td.my-wrapper {
+	padding-top: 0px;
 }
-.my-template .top-pad{
-	padding-top:30px;
+.my-template .top-pad {
+	padding-top: 30px;
 }
-.unique-content p{
-	font-size:14px;
-	line-height:21px;
+.unique-content p {
+	font-size: 14px;
+	line-height: 21px;
 }
-table.demo-btn td{
-	display:table-cell;
-	background-color:#a80888;
-	border:none;
+table.demo-btn td {
+	display: table-cell;
+	background-color: #a80888;
+	border: none;
 }
-table.demo-btn  .btn-txt a{
-	font-size:18px;
-	text-transform:uppercase;
+table.demo-btn .btn-txt a {
+	font-size: 18px;
+	text-transform: uppercase;
 }
-.my-template .sidebar-links a{
-	font-size:12px;
-	color:#1e1e1e;
-	font-weight:normal;
+.my-template .sidebar-links a {
+	font-size: 12px;
+	color: #1e1e1e;
+	font-weight: normal;
+	line-height: 16px;
 }
-.my-template .top-pad2{
-	padding-top:10px;
+.my-template .top-pad2 {
+	padding-top: 10px;
 }
-.icon{
-	width:10px;
-	float:left;
+.icon {
+	width: 10px;
+	float: left;
 }
-.right-sidebar{
-	border-left:1px solid #e5e5e5;
-
+.right-sidebar {
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
 }
-.rt{
-	border-right:1px solid #e5e5e5 !important;
+.rt {
+	border-right: 1px solid #e5e5e5;
 }
-.my-template .right-sidebar .border-bottom{
-	border-bottom:1px solid #e5e5e5;
-	padding-bottom:10px;
-	padding-top:10px;
-	height:10px;
+.my-template .right-sidebar .border-bottom {
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	height: 10px;
+	line-height: 16px;
 }
-.sidebar-top{
-	border-bottom:1px solid #e5e5e5;
+.sidebar-top {
+	border-bottom: 1px solid #e5e5e5;
 }
-.my-table{
-	width:100%;
+.my-table {
+	width: 100%;
 }
-table.footer  p{
-	margin-bottom:0px;
-	width:100%;
-	text-align:center;
+table.footer p {
+	margin-bottom: 0px;
+	width: 100%;
+	text-align: center;
 }
-.my-template .right-sidebar  .border-none{
-	border:none;
+.my-template .right-sidebar .border-none {
+	border: none;
 }
-.contact-info{
-	background-color:#e5e5e5;
+.contact-info {
+	background-color: #e5e5e5;
+	mso-table-lspace: 0pt;
+	mso-table-rspace: 0pt;
 }
-.my-template .my-panel{
-	background:none;
-	background-color:transparent;
-	border:none;
+.my-template .my-panel {
+	background: none;
+	background-color: transparent;
+	border: none;
 }
- .contact-info{
-	background:#e5e5e5;
-	border-top:1px solid #dadada !important;
-	border-left:1px solid #dadada !important;
-	border-bottom:1px solid #dadada !important;
-	border-right:5px solid #e830c3 !important;
-	background-color:#e5e5e5;
+.contact-info {
+	border-left: 1px solid #dadada;
+	border-top: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	border-right: none;
 }
-.contact-info .panel.my-panel-alt{
-	border-right:5px solid #e830c3 !important;
-	background-color:#e5e5e5;
+.contact-info .my-panel-alt {
+	background: #e5e5e5;
+	border-style: solid;
+	background-color: #e5e5e5;
+	border-right: 5px solid #e830c3 !important;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+	border-color: #e830c3;
 }
-.contact-info h6{
-	color:#555555;
-	font-size:16px;
-	line-height:20px;
-	padding-bottom:10px;
+.contact-info h6 {
+	color: #555555;
+	font-size: 16px;
+	line-height: 20px;
+	padding-bottom: 10px;
 }
-
-.contact-info p, .contact-info p a{
-	font-size:12px;
-	color:#2c2c2c;
+.my-template td.click-reg {
+	width: 415px;
 }
-.my-template .mypnl{
-	padding-top:0px !important;
+.contact-info p, .contact-info p a {
+	font-size: 12px;
+	color: #2c2c2c;
 }
-.social-links a{
-	display:inline-block;
+.my-template .mypnl {
+	padding-top: 0px !important;
 }
-.footer, .footer td{
-	background-color:#1f1f1f;
-	height:55px;
-	text-align:center;
+.social-links a {
+	display: inline-block;
 }
-
-.footer p a{
-	font-size:11px;
-	text-transform:uppercase;
-	color:#ffffff;
+.footer, .footer td {
+	background-color: #1f1f1f;
+	height: 55px;
+	text-align: center;
+}
+.footer p a {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #ffffff;
 }
 .otherProd {
-    color: #2c2c2c;
-    font: bold 25px/26px Arial,sans-serif;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    text-align: left;
+	color: #2c2c2c;
+	font: bold 25px/26px Arial, sans-serif;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	text-align: left;
 }
    
     /*template specific media quieries -------------------------------------*/
     @media only screen and (max-width: 600px) {
-	
-	.registration h5{
-		font-size:14px !important;
-	}
-	table.footer, table.footer td{
-		vertical-align:middle;
-	}
-	.footer, .footer td{
-	height:55px;
+.registration h5 {
+	font-size: 12px !important;
 }
-           
-    }
+table.footer, table.footer td {
+	vertical-align: middle;
+}
+.footer, .footer td {
+	height: 55px;
+}
+}
     
-    /* end template specific------------------------------------------------*/  
-    
-    </style>
-</head>
-<body class="my-template">
-    
+    /* end template specific------------------------------------------------*/
+</style>
+    </head>
+    <body class="my-template">
     <table class="body">
-        <tr>
-            <td class="center" align="center" valign="top">
-                <center>
-        
-                  <table class="row header">
+      <tr>
+        <td class="center" align="center" valign="top"><center>
+            <table class="row header">
+            <tr>
+                <td class="center" align="center"><center>
+                    <table class="container">
                     <tr>
-                      <td class="center" align="center">
-                        <center>
-        
-                          <table class="container">
+                        <td class="wrapper last"><table class="twelve columns">
                             <tr>
-                              <td class="wrapper last">
-        
-                                <table class="twelve columns">
-                                  <tr>
-                                    <td class="six sub-columns">
-                                     <div class="logo"> <img src="images/logos/logo.png"></div>
-                                    </td>
-                                    <td class="six sub-columns last" style="text-align:right; vertical-align:middle;">
-                                      <span class="template-label color-white">SIDEBAR HERO</span>
-                                    </td>
-                                    <td class="expander"></td>
-                                  </tr>
-                                </table>
-        
-                              </td>
-                            </tr>
-                          </table>
-        
-                        </center>
-                      </td>
-                    </tr>
-                  </table>
-        
-                  <table class="container">
-                    <tr>
-                      <td>
-        
-                        <table class="row heading">
-                          <tr>
-                            <td class="wrapper last">
-        
-                              <table class="twelve columns">
-                                <tr>
-                                  <td>
-                                    <h1>Hi [First Name]</h1>
-                                    <h6>Inviting you on seminar of new software launch</h6>
-                                  </td>
-                                  <td class="expander"></td>
-                                </tr>
-                              </table>
-        
-                            </td>
+                            <td class="six sub-columns"><div class="logo"> <img src="http://www.stagingpc.com/terence/william/email-template90/images/logos/logo.png"></div></td>
+                            <td class="six sub-columns last" style="text-align:right; vertical-align:middle;"><span class="template-label color-white">SIDEBAR HERO</span></td>
+                            <td class="expander"></td>
                           </tr>
-                        </table>
-                        
-                        <table class="row banner">
+                          </table></td>
+                      </tr>
+                  </table>
+                  </center></td>
+              </tr>
+          </table>
+            <table class="container">
+            <tr>
+                <td><table class="row heading">
+                    <tr>
+                    <td class="wrapper last"><table class="twelve columns">
+                        <tr>
+                        <td><h1>Hi [First Name]</h1>
+                            <h6>Inviting you on seminar of new software launch</h6></td>
+                        <td class="expander"></td>
+                      </tr>
+                      </table></td>
+                  </tr>
+                  </table>
+                <table class="row banner">
+                    <tr>
+                    <td class="wrapper last"><table class="twelve columns">
+                        <tr>
+                        <td class="banner-area"><div class="banner-image-wrap"> <img class="center" src="http://www.stagingpc.com/terence/william/email-template90/images/portraits/banner.jpg"> </div></td>
+                      </tr>
+                      </table></td>
+                  </tr>
+                  </table>
+                <table class="row">
+                    <tr>
+                    <td><table style="vertical-align:middle" class="twelve columns registration">
+                        <tr>
+                        <td class="eight left-text-pad click-reg"><h5 class="left-text-pad"><span class="color-white">Click Here for <a class="color-white" href="javascript://"><b>Free Registration</b></a></span></h5></td>
+                        <td class="expander"></td>
+                        <td align="right" class="four reg-details"><div align="right" class="details-image-wrap"><img align="right" src="http://www.stagingpc.com/terence/william/email-template90/images/details1.png" alt="" /></div></td>
+                      </tr>
+                      </table></td>
+                  </tr>
+                  </table>
+                <table class="row main-content">
+                    <tr>
+                    <td class="wrapper my-wrapper"><table class="six columns">
+                        <tr>
+                        <td class="unique-content top-pad"><h3><b>Unique Features</b></h3>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. </p>
+                            <p> Lorem ipsum dolor sit amet, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat. </p>
+                            <p> Lorem ipsum dolor sit amet, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                            <table class="four">
                             <tr>
-                              <td class="wrapper last"><table class="twelve columns">
-                                  <tr>
-                                    <td class="banner-area"><div class="banner-image-wrap"> <img class="center" src="images/portraits/banner.jpg"> </div></td>
-                                  </tr>
-                                </table></td>
-                            </tr>
-                          </table>
-        
-        				<table class="row">
-                            <tr>
-                              <td><table style="vertical-align:middle" class="twelve columns registration">
-                                  <tr>
-                                    <td class="eight left-text-pad"><h5 class="left-text-pad"><span class="color-white">Click Here for <a class="color-white" href="javascript://"><b>Free Registration</b></a></span></h5></td>
-                                    <td class="four"><div class="details-image-wrap"><img src="images/details1.png" alt="" /></div></td>
-                                  
-                                  </tr>
-                                </table></td>
-                            </tr>
-                          </table>
-        
-                        <table class="row main-content">
-                          <tr>
-                            <td class="wrapper my-wrapper">
-        
-                              <table class="six columns">
-                                <tr>
-                                  <td class="unique-content top-pad">
-                                    <h3><b>Unique Features</b></h3>
-                                    <p>
-                                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                                    </p>
-                                    <p>
-                                    	Lorem ipsum dolor sit amet, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                                    </p>
-                                    <p>
-                                    	Lorem ipsum dolor sit amet, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                                    </p>
-                                    
-                                    <table class="four">
+                                <td class="wrapper last"><table class="button alert demo-btn">
+                                    <tbody>
                                     <tr>
-                                    <td class="wrapper last">
-                                    <table class="button alert demo-btn">
-                                        <tbody><tr>
-                                        <td class="btn-txt">
-                                        <a href="#"><span class="color-white"><b>View Demo</b></span></a>
-                                        </td>
-                                        <td> <img src="images/view-more.png" /></td>
-                                      
-                                        </tr>
-                                        </tbody>
-                                     </table>
-                                     
-                                     </td>
-                                     </tr>
-                                     </table>
-        
-                                    
-        
-        
-                                    
-        
-                                  </td>
-                                  <td class="expander"></td>
-                                </tr>
-                              </table>
-        
-                            </td>
-                            <td class="wrapper last my-wrapper rt">
-        
-                              <table class="six columns right-sidebar">
+                                        <td class="btn-txt"><a href="#"><span class="color-white"><b>View Demo</b></span></a></td>
+                                        <td><img src="http://www.stagingpc.com/terence/william/email-template90/images/view-more.png" /></td>
+                                      </tr>
+                                  </tbody>
+                                  </table></td>
+                              </tr>
+                          </table></td>
+                        <td class="expander"></td>
+                      </tr>
+                      </table></td>
+                    <td class="wrapper last my-wrapper rt"><table class="six columns right-sidebar">
+                        <tr>
+                        <td class="twelve"><table class="my-table sidebar-top">
+                            <tbody>
+                              <tr>
+                                <td class="text-pad-left top-pad"><h5><b>Software Features</b></h5>
+                                  <table class="my-table sidebar-links">
+                                    <tr>
+                                      <td class="border-bottom"><a class="plainLink" href="#">
+                                        <div class="icon"><img  src="http://www.stagingpc.com/terence/william/email-template90/images/ar2.png" alt="icon" /></div>
+                                        &nbsp; Click Here Just a Plain Link  00001»</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td class=" border-bottom"><a class="plainLink" href="#">
+                                        <div class="icon"><img  src="http://www.stagingpc.com/terence/william/email-template90/images/ar2.png" alt="icon" /></div>
+                                        &nbsp; Click Here Just a Plain Link  00001»</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="border-bottom"><a class="plainLink" href="#">
+                                        <div class="icon"><img  src="http://www.stagingpc.com/terence/william/email-template90/images/ar2.png" alt="icon" /></div>
+                                        &nbsp; Click Just a Plain Link  00007»</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="border-bottom"><a class="plainLink" href="#">
+                                        <div class="icon"><img  src="http://www.stagingpc.com/terence/william/email-template90/images/ar2.png" alt="icon" /></div>
+                                        &nbsp; Just a Plain Link  00008»</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="border-bottom"><a class="plainLink" href="#">
+                                        <div class="icon"><img  src="http://www.stagingpc.com/terence/william/email-template90/images/ar2.png" alt="icon" /></div>
+                                        &nbsp; Click Here Just a Plain Link  00001»</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="border-bottom"><a class="plainLink" href="#">
+                                        <div class="icon"><img  src="http://www.stagingpc.com/terence/william/email-template90/images/ar2.png" alt="icon" /></div>
+                                        &nbsp; Click Here Just a Plain Link  00001»</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="border-bottom"><a class="plainLink" href="#">
+                                        <div class="icon"><img  src="http://www.stagingpc.com/terence/william/email-template90/images/ar2.png" alt="icon" /></div>
+                                        &nbsp; Click Just a Plain Link  00007» </a></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="border-bottom border-none"><a class="plainLink" href="#">
+                                        <div class="icon"><img  src="http://www.stagingpc.com/terence/william/email-template90/images/ar2.png" alt="icon" /></div>
+                                        &nbsp; Just a Plain Link  00008»</a></td>
+                                    </tr>
+                                  </table></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                            <table width="100%" bgcolor="" class="social">
+                            <tbody>
                                 <tr>
-                                  <td class="twelve">
-                                    <table class="my-table sidebar-top">
-				<tbody><tr>
-					<td class="text-pad-left top-pad">				
-													
-					<h5><b>Software Features</b></h5>
-                    <table class="my-table sidebar-links">
-                    	<tr>
-                        	<td class=""></td>
-                        </tr>
-                    	<tr>
-                        	<td class="border-bottom"><a class="plainLink" href="#"><div class="icon"><img  src="images/ar2.png" alt="icon" /></div> &nbsp; Click Here Just a Plain Link  00001»</a></td>
-                    	</tr>
-                        <tr>
-                        	<td class=" border-bottom"><a class="plainLink" href="#"><div class="icon"><img  src="images/ar2.png" alt="icon" /></div> &nbsp; Click Here Just a Plain Link  00001»</a></td>
-                    	</tr>
-                        <tr>
-                        	<td class="border-bottom"><a class="plainLink" href="#"><div class="icon"><img  src="images/ar2.png" alt="icon" /></div> &nbsp; Click Just a Plain Link  00007»</a></td>
-                    	</tr>
-                        <tr>
-                        	<td class="border-bottom"><a class="plainLink" href="#"><div class="icon"><img  src="images/ar2.png" alt="icon" /></div> &nbsp; Just a Plain Link  00008»</a></td>
-                    	</tr>
-                        <tr>
-                        	<td class="border-bottom"><a class="plainLink" href="#"><div class="icon"><img  src="images/ar2.png" alt="icon" /></div> &nbsp; Click Here Just a Plain Link  00001»</a></td>
-                    	</tr>
-                        <tr>
-                        	<td class="border-bottom"><a class="plainLink" href="#"><div class="icon"><img  src="images/ar2.png" alt="icon" /></div> &nbsp; Click Here Just a Plain Link  00001»</a></td>
-                    	</tr>
-                        <tr>
-                        	<td class="border-bottom"><a class="plainLink" href="#"><div class="icon"><img  src="images/ar2.png" alt="icon" /></div> &nbsp; Click Just a Plain Link  00007» </a></td>
-                    	</tr>
-                        <tr>
-                        	<td class="border-bottom border-none"><a class="plainLink" href="#"><div class="icon"><img  src="images/ar2.png" alt="icon" /></div> &nbsp; Just a Plain Link  00008»</a></td>
-                    	</tr>
-                        
-                    </table>
-						
-						
-
-					</td>
-				</tr>
-			</tbody></table>
-            
-            						
-					            	<table width="100%" bgcolor="" class="social">
-							<tbody>
-                            <tr>
-								<td class="panel my-panel">
-									
-									
-										<table class="contact-info" width="100%" cellpadding="" bgcolor="" align="left">
-										<tbody><tr>
-											<td class="panel my-panel-alt">				
-												<h6 class="">Contact Info:</h6>												
-												<p>Phone: 408.341.0600<br>
-                                               Email:<a href="emailto:hseldon@trantor.com">hseldon@trantor.com</a></p>
-												
-											</td>
-										</tr>
-									</tbody>
-                                    </table>
-									
-								</td>
-							</tr>
-                            <tr>
-								<td class="panel my-panel mypnl">
-									
-									
-										<table class="contact-info" width="100%" cellpadding="" bgcolor="" align="left">
-										<tbody><tr>
-											<td class="panel my-panel-alt social-links">				
-												<h6 class="">Connect With Us:</h6>												
-												<a href="#"><img alt="" src="images/social/social-icon1.png"></a>
-                                                <a href="#"><img alt="" src="images/social/social-icon2.png"></a>
-                                                <a href="#"><img alt="" src="images/social/social-icon3.png"></a>
-												
-											</td>
-										</tr>
-									</tbody>
-                                    </table>
-									
-								</td>
-							</tr>
-                            
-						</tbody></table>
-                                  </td>
-                                  <td class="expander"></td>
-                                </tr>
-                              </table>
-        
-                            </td>
-                          </tr>
-                        </table>
-        
-                      <!-- container end below -->
-                      </td>
-                    </tr>
+                                <td class="panel my-panel"><table class="contact-info" width="100%" border="1" bordercolor="#dadada" cellpadding="" bgcolor="" align="left">
+                                    <tbody>
+                                      <tr>
+                                        <td class="panel my-panel-alt"><h6 class="">Contact Info:</h6>
+                                          <p>Phone: 408.341.0600<br>
+                                            Email:<a href="emailto:hseldon@trantor.com">hseldon@trantor.com</a></p></td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                                <tr>
+                                <td class="panel my-panel mypnl"><table class="contact-info" width="100%" border="1" bordercolor="#dadada" cellpadding="" bgcolor="" align="left">
+                                    <tbody>
+                                      <tr>
+                                        <td class="panel my-panel-alt social-links"><h6 class="">Connect With Us:</h6>
+                                          <a href="#"><img alt="" src="http://www.stagingpc.com/terence/william/email-template90/images/social/social-icon1.png"></a> <a href="#"><img alt="" src="http://www.stagingpc.com/terence/william/email-template90/images/social/social-icon2.png"></a> <a href="#"><img alt="" src="http://www.stagingpc.com/terence/william/email-template90/images/social/social-icon3.png"></a></td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                              </tbody>
+                          </table></td>
+                        <td class="expander"></td>
+                      </tr>
+                      </table></td>
+                  </tr>
                   </table>
-                  
-                  <table class="row footer">
-                          <tr>
-                            <td class="container">
-        
-                              <table class="twelve columns">
-                                <tr>
-                                  <td align="center">
-                                    <center>
-                                      <p style="text-align:center;"><a href="#">Terms |</a> <a href="#">Privacy |</a> <a href="#">Unsubscrib</a></p>
-                                    </center>
-                                  </td>
-                                  <td class="expander"></td>
-                                </tr>
-                              </table>
-        
-                            </td>
-                          </tr>
-                        </table>
-        
-                </center>
-            </td>
-        </tr>
+                <!-- container end below --></td>
+              </tr>
+          </table>
+            <table class="row footer">
+            <tr>
+                <td class="container"><table class="twelve columns">
+                    <tr>
+                    <td align="center"><center>
+                        <p style="text-align:center;"><a href="#">Terms |</a> <a href="#">Privacy |</a> <a href="#">Unsubscrib</a></p>
+                      </center></td>
+                    <td class="expander"></td>
+                  </tr>
+                  </table></td>
+              </tr>
+          </table>
+          </center></td>
+      </tr>
     </table>
-    
 </body>
 </html>
